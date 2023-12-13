@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+            <title>E-InviteMe</title>
+    
+        <meta charset="utf-8">
+    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        .form-control2 {
+            height: 45px;
+            border: 0;
+            background-color: #fff;
+        }
+        .form-control2 {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + 0.75rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+    </style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-965800586"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-965800586');
+</script>
+    <!-- css -->
+    <link href="landing/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="landing/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- magnific pop-up -->
+    <link rel="stylesheet" type="text/css" href="landing/css/magnific-popup.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="landing/css/swiper.min.css">
+
+    <!--Slider-->
+    <link rel="stylesheet" type="text/css" href="landing/css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="landing/css/owl.theme.css" />
+    <link rel="stylesheet" type="text/css" href="landing/css/owl.transitions.css" />
+    <link href="landing/css/style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="plugins/floating-whatsapp/floating-wpp.min.css">
+
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Navbar Start-->
+            <nav id="navmenu" class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+    <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand logo text-uppercase" href="index.html">
+            <img src="images/einviteme.png" class="logo-light" alt="Undangan Pernikahan Digital E-InviteMe" height="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mx-auto navbar-center" id="mySidenav">
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">Fitur</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#langkah" class="nav-link">Cara Kerja</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tema" class="nav-link">Tema</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonial" class="nav-link">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pricing" class="nav-link">Harga</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Kontak</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav navbar-center">
+                <li class="nav-item">
+                    <a href="login.php" class="nav-link">Masuk</a>
+                </li>
+                <li class="nav-item d-inline-block d-lg-none">
+                    <a href="register.html" class="nav-link">Daftar</a>
+                </li>
+            </ul>
+            <div class="navbar-button d-none d-lg-inline-block">
+                <a href="register.html" class="btn btn-sm btn-success btn-rounded btn-round">Daftar Sekarang</a>
+            </div>
+        </div>
+    </div>
+</nav>    <!-- Navbar End -->
+
+
+    <!-- CONTENT -->
+        	<!-- START HOME -->
+        <section class="bg-home" id="home">
+            <div class="bg-overlay"></div>
+            <div class="home-center">
+                <div class="home-desc-center">
+
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="home-content text-white">
+                                    <h1 class="home-title mt-5">Undangan Pernikahan Online<br>
+                                    </h1>
+                                    <p class="text-white-50 f-16 mt-4"> Saatnya beralih ke undangan digital.
+                                        <br> Proses cepat, 10 menit undangan langsung jadi.</p>
+                                    <div class="pt-4 mt-1">
+                                        <a href="register.html" class="btn btn-primary">Daftar Sekarang <i
+                                                class="mdi mdi-arrow-right ml-1"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="home-img">
+                                    <img src="images/wedding.gif" class="img-fluid" alt="Undangan Pernikahan Digital E-InviteMe">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!-- END HOME -->
+
+    <!-- FEATURES -->
+        <section class="section" id="features">
+            <div class="container">
+                <div class="row mb-5 pb-5 mt-5">
+                    <div class="col-lg-12">
+                        <div class="text-center title-content">
+                            <h6 class="text-uppercase f-14 text-primary">Fitur Undangan</h6>
+                            <h2 class="mt-3">Fitur-fitur Unggulan Undangan</h2>
+                            <!-- <p class="text-muted mt-3">Tempus porta massa sed eleifend sagittis eget aliquam iaculis enim.
+                            </p> -->
+                        </div>
+
+                        <div class="row mt-5 mb-5 pb-5" style="justify-content: center;">
+                            <div class="col-lg-4">
+                                <div class="features-box text-center mt-4 p-2">
+                                    <div class="features-icon">
+                                        <img src="landing/images/icon/tamu-undangan.png" alt="Undangan Pernikahan Online E-InviteMe" width="40px">
+                                    </div>
+                                    <h5 class="mt-4 pt-3 f-18">Tamu Undangan</h5>
+                                    <p class="text-muted mt-3">Undang semua teman dan kerabat Anda tanpa ada batasan jumlah.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="features-box text-center mt-4 p-2">
+                                    <div class="features-icon">
+                                        <!-- <i class="uim uim-briefcase"></i> -->
+                                        <img src="landing/images/icon/buku-tamu.png" alt="Undangan Pernikahan Digital E-InviteMe" width="40px">
+                                    </div>
+                                    <h5 class="mt-4 pt-3 f-18">Buku Tamu</h5>
+                                    <p class="text-muted mt-3">Ketahui siapa saja teman / kerabat Anda yang akan hadir atau tidak hadir.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="features-box text-center mt-4 p-2">
+                                    <div class="features-icon">
+                                        <img src="landing/images/icon/countdown-timer.png" alt="Undangan Pernikahan Online E-InviteMe" width="40px">
+                                    </div>
+                                    <h5 class="mt-4 pt-3 f-18">Countdown Timer</h5>
+                                    <p class="text-muted mt-3">Hitung mundur ke momen paling indah dalam hidup Anda.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="features-box text-center mt-4 p-2">
+                                    <div class="features-icon">
+                                        <img src="landing/images/icon/amplop-digital.png" alt="Undangan Pernikahan Digital E-InviteMe" width="40px">
+                                    </div>
+                                    <h5 class="mt-4 pt-3 f-18">Amplop Digital</h5>
+                                    <p class="text-muted mt-3">Proses pengiriman amplop instant dan cashless.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="features-box text-center mt-4 p-2">
+                                    <div class="features-icon">
+                                        <img src="landing/images/icon/peta-alamat.png" alt="Undangan Pernikahan Online E-InviteMe" width="40px">
+                                    </div>
+                                    <h5 class="mt-4 pt-3 f-18">Peta Alamat</h5>
+                                    <p class="text-muted mt-3">Petunjuk Google Maps yang dapat mempermudah tamu undangan menuju ke lokasi.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="features-box text-center mt-4 p-2">
+                                    <div class="features-icon">
+                                        <img src="landing/images/icon/gallery-foto.png" alt="Undangan Pernikahan Digital E-InviteMe" width="40px">
+                                    </div>
+                                    <h5 class="mt-4 pt-3 f-18">Galeri Foto</h5>
+                                    <p class="text-muted mt-3">Tunjukan foto dan video indah Anda kepada tamu undangan.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="features-box text-center mt-4 p-2">
+                                    <div class="features-icon">
+                                        <img src="landing/images/icon/cerita-pasangan.png" alt="Undangan Pernikahan Online E-InviteMe" width="40px">
+                                    </div>
+                                    <h5 class="mt-4 pt-3 f-18">Cerita Pasangan</h5>
+                                    <p class="text-muted mt-3">Biarkan tamu undangan Anda tahu bagaimana Anda bertemu pasangan hidup Anda.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="features-box text-center mt-4 p-2">
+                                    <div class="features-icon">
+                                        <img src="landing/images/icon/share-whatsapp.png" alt="Undangan Pernikahan Digital E-InviteMe" width="40px">
+                                    </div>
+                                    <h5 class="mt-4 pt-3 f-18">Share Whatsapp</h5>
+                                    <p class="text-muted mt-3">Fitur terbaik untuk mempermudah Anda untuk membagikan undangan melalui whatsapp.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!-- END FEATURES -->
+
+    <!-- START KENAPA KAMI -->
+        <section class="section pt-0 bg-light">
+
+            <div class="container">
+
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center features-img">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 pt-5">
+                    <div class="col-lg-12">
+                        <div class="text-center title-content">
+                            <h6 class="text-uppercase f-14 text-primary">Kenapa Kami?</h6>
+                            <h2 class="mt-3">Mengapa Harus E-InviteMe?</h2>
+                            <!-- <p class="text-muted mt-3">Aenean aliquam odio ut risus aliquam facilisis. Nam ac velit odio.
+                                Fusce a leo vel ligula
+                                <br> elementum feugiat id fringilla at, interdum in sem.
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5" id="counter">
+                    <div class="col-lg-3">
+                        <div class="counter-box mt-4">
+                            <div class="media box-shadow bg-white p-4 rounded">
+                                <div class="media-body">
+                                    <div class="counter-icon">
+                                        <img src="landing/images/icon/harga-bersaing.png" alt="Undangan Pernikahan Digital E-InviteMe" style="width: 50px; margin-bottom: 20px;">
+                                    </div>
+                                    <h3 class="counter-count">Harga <br> Bersaing</h3>
+                                    <p class="mt-1 mb-0">Spesialkan Pernikahanmu dengan undangan digital yang terjangkau.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="counter-box mt-4">
+                            <div class="media box-shadow bg-white p-4 rounded">
+                                <div class="media-body">
+                                    <div class="counter-icon">
+                                        <img src="landing/images/icon/proses-cepat.png" alt="Undangan Pernikahan Online E-InviteMe" style="width: 50px; margin-bottom: 20px;">
+                                    </div>
+                                    <h3 class="counter-count ">Proses <br> Cepat</h3>
+                                    <p class="mt-1 mb-0">Proses pembuatan undangan yang cepat dan dapat diubah kapanpun.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="counter-box mt-4">
+                            <div class="media box-shadow bg-white p-4 rounded">
+                                <div class="media-body">
+                                    <div class="counter-icon">
+                                        <img src="landing/images/icon/tema-beragam.png" alt="" style="width: 50px; margin-bottom: 20px;">
+                                    </div>
+                                    <h3 class="counter-count">Tema <br> Beragam</h3>
+                                    <p class="mt-1 mb-0">Tersedia banyak pilihan tema yang bisa di sesuaikan dengan selera Anda.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="counter-box mt-4">
+                            <div class="media box-shadow bg-white p-4 rounded">
+                                <div class="media-body">
+                                    <div class="counter-icon">
+                                        <img src="landing/images/icon/support-terbaik.png" alt="Undangan Pernikahan Digital E-InviteMe" style="width: 50px; margin-bottom: 20px;">
+                                    </div>
+                                    <h3 class="counter-count">Support <br> Terbaik</h3>
+                                    <p class="mt-1 mb-0">Tim Kami selalu bisa diandalkan, Ketika Anda perlu bantuan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- END KENAPA KAMI -->
+
+    <!-- START LANGKAH -->
+        <section class="section" id="langkah">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center title-content">
+                            <h6 class="text-uppercase f-14 text-primary">Langkah Pembuatan</h6>
+                            <h2 class="mt-3">Hanya 4 Langkah dan Website <br> Undangan Pernikahan Online Anda Siap Disebar!</h2>
+                            <!-- <p class="text-muted mt-3">Kamu bisa merubah paket kapanpun, jadi coba gratis aja dulu.</p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-12 mt-4 pt-2">
+
+                        <div class="row">
+                            <div class="row" style="justify-content: space-between; align-items: center;">
+                                <div class="col-lg-4">
+                                    <img src="images/wedding.gif" alt="" srcset="" style="width: 100%;">
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="pricing-box box-shadow mt-4 p-5">
+                                                <img src="landing/images/icon/registrasi.png" alt="Undangan Pernikahan Online E-InviteMe" style="width: 50px; margin-bottom: 20px;">
+                                                <h4 class="">Registrasi</h4>
+                                                <p class="text-muted">Melakukan pendaftaran di website E-InviteMe.id</p>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+                                        <div class="col-lg-6">
+                                            <div class="pricing-box box-shadow mt-4 p-5">
+                                                <img src="landing/images/icon/isi-formasi.png" alt="Undangan Pernikahan Digital E-InviteMe" style="width: 50px; margin-bottom: 20px;">
+                                                <h4 class="">Isi Formulir</h4>
+                                                <p class="text-muted">Isi data pernikahan seperti data mempelai, lokasi dan lain-lain.</p>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+                                        <div class="col-lg-6">
+                                            <div class="pricing-box box-shadow mt-4 p-5">
+                                                <img src="landing/images/icon/sebarkan.png" alt="Undangan Pernikahan Online E-InviteMe" style="width: 50px; margin-bottom: 20px;">
+
+                                                <h4 class="">Sebarkan</h4>
+                                                <p class="text-muted">Undangan telah jadi dan dapat Anda sebarkan kepada teman dan kerabat.</p>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+                                        <div class="col-lg-6">
+                                            <div class="pricing-box box-shadow mt-4 p-5">
+                                                <img src="landing/images/icon/monitoring.png" alt="Undangan Pernikahan Digital E-InviteMe" style="width: 50px; margin-bottom: 20px;">
+                                                <h4 class="">Monitoring</h4>
+                                                <p class="text-muted">Pantau siapa saja yang akan datang, memberi ucapan, dan mengirim amplop.</p>
+                                            </div>
+                                        </div>
+                                        <!--end col-->
+                                    </div>
+
+                                
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <!--end row-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- END LANGKAH -->
+
+    <!-- START TEMA -->
+        <section class="section bg-light" id="tema">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center title-content">
+                            <h6 class="text-uppercase f-14 text-primary">Pilihan Tema</h6>
+                            <h2 class="mt-3">Pilih Tema Sesuai Dengan<br>Undangan Pernikahan Impianmu.</h2>
+                            <!-- <p class="text-muted mt-3">Tempus porta massa sed eleifend sagittis eget aliquam iaculis enim. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="row">
+                                            <input type="hidden" class="colorThema" id="colorThema-1" value="">
+                        <div class="col-lg-4">
+                            <div class="blog-box mt-4">
+                                <div class="blog-img"></div>
+                                <img src="themes/goulet1/img/thumb.png" class="img-fluid rounded" alt="Undangan Pernikahan Online E-InviteMe" id="background-1">
+                                <div class="blog-content p-3 bg-white box-shadow">
+                                    <div class="category">
+                                        <span class="badge bg-success badge-sm me-1 mb-1 mt-1 text-white">Natural</span><br>
+                                        <div class="flex-color">
+                                                                                                                                    <div class="color-theme border-2 spanColor" style="background-color: #F1836F; border-color: #8d1f0b; cursor: pointer" id="spanColor-1-1-1" onclick="changeColor(1,1,1)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #0B5383; border-color: #00001f; cursor: pointer" id="spanColor-2-1-1" onclick="changeColor(2,1,1)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #987647; border-color: #341200; cursor: pointer" id="spanColor-3-1-1" onclick="changeColor(3,1,1)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #71366D; border-color: #0d0009; cursor: pointer" id="spanColor-4-1-1" onclick="changeColor(4,1,1)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #C8882C; border-color: #642400; cursor: pointer" id="spanColor-5-1-1" onclick="changeColor(5,1,1)"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
+                                    </div>
+                                    <h5 class="mt-1 f-18"><a href="#" class="text-dark"><span id="nama-1" class="nameThema">Goulet</a></h5>
+                                    <div class="mt-3 mb-3">
+                                        <a href="javascript:void(0)" onclick="showDemo(1,1,1)" class="btn btn-sm btn-primary" id="demoThema-1">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <input type="hidden" class="colorThema" id="colorThema-6" value="">
+                        <div class="col-lg-4">
+                            <div class="blog-box mt-4">
+                                <div class="blog-img"></div>
+                                <img src="themes/stanionery1/img/thumb.png" class="img-fluid rounded" alt="Undangan Pernikahan Online E-InviteMe" id="background-6">
+                                <div class="blog-content p-3 bg-white box-shadow">
+                                    <div class="category">
+                                        <span class="badge bg-success badge-sm me-1 mb-1 mt-1 text-white">Natural</span><br>
+                                        <div class="flex-color">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="color-theme border-2 spanColor" style="background-color: #2C5A4B; border-color: #000000; cursor: pointer" id="spanColor-6-2-6" onclick="changeColor(6,2,6)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #71366D; border-color: #0d0009; cursor: pointer" id="spanColor-4-2-6" onclick="changeColor(4,2,6)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #C8882C; border-color: #642400; cursor: pointer" id="spanColor-5-2-6" onclick="changeColor(5,2,6)"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+                                    </div>
+                                    <h5 class="mt-1 f-18"><a href="#" class="text-dark"><span id="nama-6" class="nameThema">Stanionery</a></h5>
+                                    <div class="mt-3 mb-3">
+                                        <a href="javascript:void(0)" onclick="showDemo(2,6,6)" class="btn btn-sm btn-primary" id="demoThema-6">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <input type="hidden" class="colorThema" id="colorThema-9" value="">
+                        <div class="col-lg-4">
+                            <div class="blog-box mt-4">
+                                <div class="blog-img"></div>
+                                <img src="themes/sariga1/assets/images/thumb.png" class="img-fluid rounded" alt="Undangan Pernikahan Online E-InviteMe" id="background-9">
+                                <div class="blog-content p-3 bg-white box-shadow">
+                                    <div class="category">
+                                        <span class="badge bg-success badge-sm me-1 mb-1 mt-1 text-white">Traditional</span><br>
+                                        <div class="flex-color">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="color-theme border-2 spanColor" style="background-color: #0B5383; border-color: #00001f; cursor: pointer" id="spanColor-2-3-9" onclick="changeColor(2,3,9)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #2C5A4B; border-color: #000000; cursor: pointer" id="spanColor-6-3-9" onclick="changeColor(6,3,9)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #F1836F; border-color: #8d1f0b; cursor: pointer" id="spanColor-1-3-9" onclick="changeColor(1,3,9)"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                                    </div>
+                                    <h5 class="mt-1 f-18"><a href="#" class="text-dark"><span id="nama-9" class="nameThema">Sariga</a></h5>
+                                    <div class="mt-3 mb-3">
+                                        <a href="javascript:void(0)" onclick="showDemo(3,2,9)" class="btn btn-sm btn-primary" id="demoThema-9">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <input type="hidden" class="colorThema" id="colorThema-12" value="">
+                        <div class="col-lg-4">
+                            <div class="blog-box mt-4">
+                                <div class="blog-img"></div>
+                                <img src="themes/brushy1/img/thumb.png" class="img-fluid rounded" alt="Undangan Pernikahan Online E-InviteMe" id="background-12">
+                                <div class="blog-content p-3 bg-white box-shadow">
+                                    <div class="category">
+                                        <span class="badge bg-success badge-sm me-1 mb-1 mt-1 text-white">Natural</span><br>
+                                        <div class="flex-color">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #0B5383; border-color: #00001f; cursor: pointer" id="spanColor-2-4-12" onclick="changeColor(2,4,12)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #71366D; border-color: #0d0009; cursor: pointer" id="spanColor-4-4-12" onclick="changeColor(4,4,12)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #2C5A4B; border-color: #000000; cursor: pointer" id="spanColor-6-4-12" onclick="changeColor(6,4,12)"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                                    </div>
+                                    <h5 class="mt-1 f-18"><a href="#" class="text-dark"><span id="nama-12" class="nameThema">Brushy</a></h5>
+                                    <div class="mt-3 mb-3">
+                                        <a href="javascript:void(0)" onclick="showDemo(4,2,12)" class="btn btn-sm btn-primary" id="demoThema-12">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <input type="hidden" class="colorThema" id="colorThema-15" value="">
+                        <div class="col-lg-4">
+                            <div class="blog-box mt-4">
+                                <div class="blog-img"></div>
+                                <img src="themes/tarana1/assets/images/thumb.png" class="img-fluid rounded" alt="Undangan Pernikahan Online E-InviteMe" id="background-15">
+                                <div class="blog-content p-3 bg-white box-shadow">
+                                    <div class="category">
+                                        <span class="badge bg-success badge-sm me-1 mb-1 mt-1 text-white">Traditional</span><br>
+                                        <div class="flex-color">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="color-theme border-2 spanColor" style="background-color: #FF0000; border-color: #9b0000; cursor: pointer" id="spanColor-7-5-15" onclick="changeColor(7,5,15)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #2C5A4B; border-color: #000000; cursor: pointer" id="spanColor-6-5-15" onclick="changeColor(6,5,15)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #0B5383; border-color: #00001f; cursor: pointer" id="spanColor-2-5-15" onclick="changeColor(2,5,15)"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
+                                    </div>
+                                    <h5 class="mt-1 f-18"><a href="#" class="text-dark"><span id="nama-15" class="nameThema">Tarana</a></h5>
+                                    <div class="mt-3 mb-3">
+                                        <a href="javascript:void(0)" onclick="showDemo(5,7,15)" class="btn btn-sm btn-primary" id="demoThema-15">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <input type="hidden" class="colorThema" id="colorThema-18" value="">
+                        <div class="col-lg-4">
+                            <div class="blog-box mt-4">
+                                <div class="blog-img"></div>
+                                <img src="themes/faustine1/assets/images/thumb.png" class="img-fluid rounded" alt="Undangan Pernikahan Online E-InviteMe" id="background-18">
+                                <div class="blog-content p-3 bg-white box-shadow">
+                                    <div class="category">
+                                        <span class="badge bg-success badge-sm me-1 mb-1 mt-1 text-white">Simple</span><br>
+                                        <div class="flex-color">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="color-theme border-2 spanColor" style="background-color: #D88B5C; border-color: #742700; cursor: pointer" id="spanColor-8-6-18" onclick="changeColor(8,6,18)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #2C5A4B; border-color: #000000; cursor: pointer" id="spanColor-6-6-18" onclick="changeColor(6,6,18)"></div>
+                                                                                                                                                                                <div class="color-theme border-2 spanColor" style="background-color: #F1836F; border-color: #8d1f0b; cursor: pointer" id="spanColor-1-6-18" onclick="changeColor(1,6,18)"></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+                                    </div>
+                                    <h5 class="mt-1 f-18"><a href="#" class="text-dark"><span id="nama-18" class="nameThema">Faustine</a></h5>
+                                    <div class="mt-3 mb-3">
+                                        <a href="javascript:void(0)" onclick="showDemo(6,8,18)" class="btn btn-sm btn-primary" id="demoThema-18">Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                <center>
+                    <a href="tema.html" class="btn btn-sm btn-primary" style="margin-top: 50px;">Tema Lainnya</a>
+                </center>
+            </div>
+        </section>
+    <!-- END TEMA -->
+
+    <!-- START TESTIMONAIL -->
+        <section class="section bg-light" id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center title-content">
+                            <h6 class="text-uppercase f-14 text-primary">Testimonial</h6>
+                            <h2 class="mt-3">Lihat Seberapa Puas Mereka Yang<br> Menggukan E-InviteMe</h2>
+                            <!-- <p class="text-muted mt-3">Tempus porta massa sed eleifend sagittis eget aliquam iaculis enim. </p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <div id="testi-carousel">
+                                                            <div class=" testi-box bg-white mt-4 mb-5 mx-3 p-4 rounded">
+                                    <div class="media">
+                                        <div class="testi-img mr-3">
+                                            <img src="images/noprofile.jpg" class="img-fluid rounded-circle img-thumbnail" alt="Undangan Pernikahan Digital E-InviteMe">
+                                        </div>
+                                        
+                                        <div class="media-body">
+                                            <h6 class="text-uppercase f-15 mt-3">Si User</h6>
+                                            <p class="text-muted">Pernikahan Si User &amp; User</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="text-muted mt-3 font-italic f-16">Terima kasih E-InviteMe udah bantu buatin undangan pernikahan digital kita. Prosesnya cepet banget, hasilnya juga bagus. Recommended!</p>
+                                    
+                                    <div class="text-right mt-1">
+                                        <i class="mdi mdi-format-quote-close"></i>
+                                    </div>
+                                </div>
+                                                            <div class=" testi-box bg-white mt-4 mb-5 mx-3 p-4 rounded">
+                                    <div class="media">
+                                        <div class="testi-img mr-3">
+                                            <img src="images/noprofile.jpg" class="img-fluid rounded-circle img-thumbnail" alt="Undangan Pernikahan Digital E-InviteMe">
+                                        </div>
+                                        
+                                        <div class="media-body">
+                                            <h6 class="text-uppercase f-15 mt-3">Si Orang</h6>
+                                            <p class="text-muted">Pernikahan Si Orang &amp; Orang</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="text-muted mt-3 font-italic f-16">Undangan online di E-InviteMe bagus banget. Layanannya juga keren, kalo ada kesulitan langsung dibantu sama adminnya. Makasih E-InviteMe</p>
+                                    
+                                    <div class="text-right mt-1">
+                                        <i class="mdi mdi-format-quote-close"></i>
+                                    </div>
+                                </div>
+                                                            <div class=" testi-box bg-white mt-4 mb-5 mx-3 p-4 rounded">
+                                    <div class="media">
+                                        <div class="testi-img mr-3">
+                                            <img src="images/noprofile.jpg" class="img-fluid rounded-circle img-thumbnail" alt="Undangan Pernikahan Digital E-InviteMe">
+                                        </div>
+                                        
+                                        <div class="media-body">
+                                            <h6 class="text-uppercase f-15 mt-3">Si Manusia</h6>
+                                            <p class="text-muted">Pernikahan Si Manusia &amp; Manusia</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="text-muted mt-3 font-italic f-16">Fitur undangannya cukup lengkap. Jadi gak perlu bingung lagi milih undangan digital dimana. Thanks E-InviteMe</p>
+                                    
+                                    <div class="text-right mt-1">
+                                        <i class="mdi mdi-format-quote-close"></i>
+                                    </div>
+                                </div>
+                                                            <div class=" testi-box bg-white mt-4 mb-5 mx-3 p-4 rounded">
+                                    <div class="media">
+                                        <div class="testi-img mr-3">
+                                            <img src="images/noprofile.jpg" class="img-fluid rounded-circle img-thumbnail" alt="Undangan Pernikahan Digital E-InviteMe">
+                                        </div>
+                                        
+                                        <div class="media-body">
+                                            <h6 class="text-uppercase f-15 mt-3">Wilson</h6>
+                                            <p class="text-muted">Pernikahan Wilson &amp; Lo Siento</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="text-muted mt-3 font-italic f-16">E-InviteMe mantap. Harga ekonomis tapi fitur dan undangannya sangat mewah dan ekslusif. Makasih juga buat adminnya yang sangat ramah</p>
+                                    
+                                    <div class="text-right mt-1">
+                                        <i class="mdi mdi-format-quote-close"></i>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- END TESTIMONIAL -->
+
+    <!-- START HARGA -->
+        <section class="section" id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center title-content">
+                            <h6 class="text-uppercase f-14 text-primary">Paket Harga</h6>
+                            <h2 class="mt-3">Dapatkan Undangan Digital Premium <br>Dengan Harga Terjangkau</h2>
+                            <p class="text-muted mt-3">Anda dapat merubah jenis paket kapanpun, jadi coba gratis saja dulu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="pricing-box box-shadow mt-4 p-5">
+                                    <h4 class="">Reguler</h4>
+                                    <p class="text-muted">Paket gratis dengan beberapa fitur yang minimalis.</p>
+
+                                    <div class="mt-4">
+                                        <h4 class="pricing-title">
+                                            Gratis <span class="f-16 text-dark"></span>
+                                        </h4>
+                                    </div>
+                                    <div class="pricing-border mt-3"></div>
+
+                                    <ul class="list-group list-group-flush">
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Amplop Digital</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Hitung Mundur Acara</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Kutipan Kata</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Musik Latar</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> 3 Foto dan 1 Video</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Aktif 2 Hari</li>
+                            </ul>
+
+                                    <div class="mt-4 pt-3">
+                                        <a href="register.html" rel="nofollow" class="btn btn-light w-100">Buat Sekarang</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="pricing-box box-shadow mt-4 p-5">
+                                    <h4 class="">Premium</h4>
+                                    <p class="text-muted">Paket dengan beberapa fitur berguna untuk undangan pernikahan online Anda.</p>
+
+                                    <div class="mt-4">
+                                        <span class="f-16 text-dark" style="text-decoration: line-through; color: rgb(240, 57, 57) !important;">Rp 79.000</span>
+                                        <h4 class="pricing-title">
+                                            Rp 49,000
+                                        </h4>
+                                    </div>
+                                    <div class="pricing-border mt-3"></div>
+
+                                    <ul class="list-group list-group-flush">
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Amplop Digital</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Hitung Mundur Acara</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Kutipan Kata</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Musik Latar</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Ucapan dan Doa</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Cerita Cinta</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Unlimited Tamu</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Buku Tamu</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> 10 Foto dan 1 Video</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Share Whatsapp</li>
+                                <li class="list-group-item"> <i class="mdi mdi-checkbox-marked-circle text-success f-20 mr-2"></i> Aktif 3 Bulan</li>
+                            </ul>
+
+                                    <div class="mt-4 pt-3">
+                                        <a href="register.html" rel="nofollow" class="btn btn-light w-100">Buat Sekarang</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end row-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- END HARGA -->
+
+    <!-- START CTA -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="cta-content text-center box-shadow" style="padding: 50px 10px; border-radius: 10px;">
+
+                            <div class="text-center">
+                                <h6 class="text-uppercase desc-white f-14 text-primary">Kenapa E-InviteMe ?</h6>
+                                <h3 class="mt-4 ">Tunggu Apa Lagi ? <br> Buat Undangan Pernikahan Online Anda di E-InviteMe</h3>
+                                <div class="mt-5">
+                                    <a href="register.html" rel="nofollow" class="btn btn-primary">Buat Sekarang</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- END CTA -->
+
+    <!-- START DESKRIPSI -->
+        <section class="section pt-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="row">
+                            <div class="row" style="justify-content: space-between; align-items: center;">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="pricing-box box-shadow mt-4 p-5">
+                                                <p class="text-center pb-3">
+                                                    <img src="images/einviteme.png" alt="Logo E-InviteMe - Undangan Pernikahan Online" width="500">
+                                                </p>
+                                                <p class="text-muted">
+                                                    E-InviteMe adalah sebuah platform untuk membuat undangan pernikahan online dan digital dengan mudah dengan fitur canggih dan lengkap. Undangan yang dibuat akan berbentuk sebuah website yang dapat di akses dan dibagikan kapanpun. E-InviteMe memudahkan seseorang yang memiliki pernikahan untuk mengirimkan undangan kepada calon tamu undangan dengan efektif dan efisien karena didistribusikan dalam bentuk link yang dapat disebar ke berbagai <em>messaging app.</em>
+                                                    <br><br>
+                                                    Cukup 5-10 menit proses pembuatan dan harga yang tetap bersahabat tanpa mengurangi eksklusifitas dan kelengkapan dari website undangan digital Anda. Website undangan pernikahan online yang disediakan E-InviteMe memungkinkan Anda untuk menampilkan informasi yang tidak bisa disampaikan melalui undangan cetak seperti video <em>pre wedding</em>, buku tamu <em>online </em>beserta ucapan, amplop atau kado <em>online </em>yang langsung terhubung dengan akun pribadi Anda, cerita cinta, penghitung waktu mundur, <em>soundtrack</em> undangan pilhan calon pengantin, pilihan tema yang variatif dengan background estetik serta link live streaming perayaan pernikahan.
+                                                    <br><br>
+                                                    Kami yakin E-InviteMe dapat menjadi pilihan tepat untuk membantu Anda mempersiapkan pernikahan impian Anda. Karena kami percaya bahwa menciptakan efesiensi adalah cara menyempurnakan momen perayaan Anda yang paling berharga.
+                                                    <br><br>
+                                                    Keunggulan Undangan Pernikahan Digital E-InviteMe :
+                                                    <br>
+                                                    <h2 class="mt-4 text-muted" style="font-size:20px;">1. Judul</h2>
+                                                    <p class="text-muted">Deskripsi.</p>
+                                                    <h2 class="mt-4 text-muted" style="font-size:20px;">2. Judul</h2>
+                                                    <p class="text-muted">Deskripsi</p>
+                                                    <h2 class="mt-4 text-muted" style="font-size:20px;">3. Judul</h2>
+                                                    <p class="text-muted">Deskripsi</p>
+                                                    <h2 class="mt-4 text-muted" style="font-size:20px;">4. Judul</h2>
+                                                    <p class="text-muted">Deskripsi</p>
+                                                    <h2 class="mt-4 text-muted" style="font-size:20px;">5. Judul</h2>
+                                                    <p class="text-muted">Deskripsi</p>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end row-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- END DESKRIPSI --> 
+    <!-- END CONTENT -->
+
+    <div id="floatWA"></div>
+
+    <!-- START FOOTER -->
+    <section class="section bg-footer py-5">
+        <div class="bg-overlay"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-info mt-4">
+                        <center><img src="images/einviteme.png" alt="Undangan Pernikahan Digital E-InviteMe" height="100"></center>
+
+                        <p class="text-white-50 mt-4 f-15">E-InviteMe adalah platform atau website undangan pernikahan online yang dapat membantu Anda membuat undangan pernikahan digital untuk pernikahan impian Anda.</p>
+                        <!-- <p class="text-white f-20">304-867-7188</p> -->
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="mt-4">
+                        <h5 class="text-white f-17">Produk</h5>
+                        <ul class="list-unstyled footer-link mt-3">
+                            <li><a href="index.html#tema">Tema</a></li>
+                            <li><a href="index.html#pricing">Harga</a></li>
+                            <li><a href="index.html#testimonial">Testimonial</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="mt-4">
+                        <h5 class="text-white f-17">Info</h5>
+                        <ul class="list-unstyled footer-link mt-3">
+                            <li><a href="panduan.html" target="_blank">Panduan</a></li>
+                            <li><a href="index.html#features">Fitur</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="mt-4">
+                        <h5 class="text-white f-17">Dukungan</h5>
+                        <ul class="list-unstyled footer-link mt-3">
+                            <li><a href="snk.html">Syarat dan Ketentuan</a></li>
+                            <li><a href="tentang.html">Tentang Kami</a></li>
+                            <li><a href="contact.html">Kontak</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="footer-alt">
+                        <ul class="list-inline footer-social float-right mb-0">
+                            <li class="list-inline-item"><a href="index.html" rel="nofollow" target="_blank"><i class="mdi mdi-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="index.html" rel="nofollow" target="_blank"><i class="mdi mdi-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="index.html" rel="nofollow" target="_blank"><i class="mdi mdi-music-note"></i></a></li>
+                            <li class="list-inline-item"><a href="index.html" rel="nofollow" target="_blank"><i class="mdi mdi-instagram"></i></a></li>
+                        </ul>
+                        <div class="footer-info">
+                            <p class="text-white-50">Undangan Pernikahan Online - E-InviteMe © 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER -->
+
+    <!-- javascript -->
+    <script src="landing/js/jquery.min.js"></script>
+    <script src="landing/js/bootstrap.bundle.min.js"></script>
+    <script src="landing/js/jquery.easing.min.js"></script>
+    <script src="landing/js/scrollspy.min.js"></script>
+    <!-- olw- carousel -->
+    <script src="landing/js/owl.carousel.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="landing/js/jquery.magnific-popup.min.js"></script>
+    <!-- swipper js -->
+    <script src="landing/js/swiper.min.js"></script>
+    <script src="landing/js/jquery.mb.YTPlayer.js"></script>
+    <!--flex slider plugin-->
+    <script src="landing/js/jquery.flexslider-min.js"></script>
+    <!-- contact init -->
+    <script src="landing/js/contact.init.js"></script>
+    <script type="text/javascript" src="plugins/floating-whatsapp/floating-wpp.min.js"></script>
+
+    <script src="../unicons.iconscout.com/release/v2.0.1/script/monochrome/bundle.js"></script>
+    <script src="landing/js/app.js"></script>
+
+    <script>
+        $('#floatWA').floatingWhatsApp({
+            phone: +6281377277232,
+            popupMessage: 'Halo, ada yang dapat kami bantu?',
+            message: "Saya ingin membuat undangan pernikahan online.",
+            showPopup: true,
+            position: 'right',
+            headerTitle: 'Customer Service E-InviteMe',
+            size: '60px',
+            autoOpenTimeout: 20000,
+            zIndex: 10
+        });
+    </script>
+    
+        <script>
+        var owl = $('#testi-carousel');
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            autoPlay: true,
+            autoPlayTimeout: 1000,
+            stopOnHover: true,
+        });
+
+        function searchTema(){
+            $( "#formSearchKategori" ).submit();
+        }
+
+        function changeColor (warnaId, groupBy_id, id){
+            let url = `https://E-InviteMe.id/v2/preview/`+groupBy_id+`/`+warnaId+` `;
+            
+            $("#demoThema-"+id).attr("href", url).attr('target','_blank');
+            $('.spanColor').removeClass('border-info');
+            $('#spanColor-'+warnaId+'-'+groupBy_id+'-'+id).addClass('border-info');
+            $('#colorThema-'+id).val(warnaId)
+
+            $('.tema').removeClass('border-primary');
+            $('#tema-'+id).addClass('border-primary')
+
+            getDetaiThemaWithColor(warnaId,groupBy_id,id);
+        }
+
+        function getDetaiThemaWithColor(warnaId,groupBy_id,idItem){
+            $.ajax({
+                url : "/front-themes/getId/" + + groupBy_id + '/' + warnaId,
+                type: "GET",
+                dataType: "JSON",
+                success: function(data) {
+                    $('#nama-'+idItem).html(data.nama)
+                    $('#background-'+idItem).attr("src", data.gambar)
+                }
+            });
+        }
+
+        function showDemo(groupBy_id, warnaId, idItem){
+            let colorThema = $('#colorThema-'+idItem).val();
+            if ( colorThema == '') {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Terjadi Kesalahan',
+                    text: 'Anda belum memilih warna tema'
+                });
+            }else{
+                let url = `https://E-InviteMe.id/v2/preview/`+groupBy_id+`/`+colorThema+` `;
+                $("#demoThema-"+idItem).attr("href", url).attr('target','_blank');
+            }
+        }
+    </script>
+</body>
+</html>

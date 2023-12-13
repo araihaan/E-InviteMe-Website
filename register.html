@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registrasi E-InviteMe</title>
+    <!-- css -->
+    <link
+      href="landing/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="landing/css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- magnific pop-up -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="landing/css/magnific-popup.css"
+    />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="landing/css/swiper.min.css" />
+
+    <!--Slider-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="landing/css/owl.carousel.css"
+    />
+    <link rel="stylesheet" type="text/css" href="landing/css/owl.theme.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="landing/css/owl.transitions.css"
+    />
+    <link href="landing/css/style.css" rel="stylesheet" type="text/css" />
+
+    <link
+      rel="stylesheet"
+      href="plugins/floating-whatsapp/floating-wpp.min.css"
+    />
+
+    <!-- Material Icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!--- FONT-ICONS CSS -->
+    <link href="css/icons.css" rel="stylesheet" />
+
+    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <!-- CONTENT -->
+    <div class=".container bg-auth">
+      <div class="cont-flex-auth">
+        <center>
+          <a href="index.html"
+            ><img
+              src="images/einviteme.png"
+              class="logo-dark"
+              alt=""
+              height="80"
+              style="margin-bottom: 30px; margin-top: 20px"
+          /></a>
+        </center>
+
+        <div class="box-form-auth box-shadow">
+          <center class="mb-3">
+            <h2>Daftar</h2>
+          </center>
+          <form method="POST" action="register.php">
+            <!-- nama_mempelai -->
+            <div class="form-group mt-2">
+              <label for="nama_mempelai">Nama Mempelai</label>
+              <div class="input-group">
+                <input
+                  id="nama_mempelai"
+                  type="text"
+                  class="form-control"
+                  name="nama_mempelai"
+                  placeholder="namapasangan"
+                  aria-label="Nama Mempelai"
+                  aria-describedby="basic-addon2"
+                  autofocus
+                  required
+                />
+                <span
+                  class="input-group-text bg-primary text-white"
+                  id="basic-addon2"
+                  >.einviteme.xyz</span
+                >
+              </div>
+              <small>Tidak boleh mengandung spasi dan tanda baca.</small>
+            </div>
+
+            <!-- nama -->
+            <div class="form-group mt-2">
+              <label for="nama">Nama</label>
+              <input
+                id="nama"
+                type="text"
+                class="form-control"
+                placeholder="Nama Anda"
+                name="nama"
+                required
+              />
+            </div>
+
+            <!-- email -->
+            <div class="form-group mt-2">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                class="form-control"
+                placeholder="pasangan@gmail.com"
+                name="email"
+                required
+              />
+            </div>
+
+            <!-- password -->
+            <div class="form-group mt-2">
+              <label for="password">Password</label>
+              <input
+                name="password"
+                id="password"
+                class="form-control"
+                placeholder="********"
+                type="password"
+                required
+              />
+            </div>
+
+            <!-- konfirmasi password -->
+            <div class="form-group mt-2">
+              <label for="password_confirm">Konfirmasi Password</label>
+              <input
+                name="password_confirm"
+                id="password_confirm"
+                class="form-control"
+                placeholder="********"
+                type="password"
+                required
+              />
+            </div>
+
+            <!-- whatsapp -->
+            <div class="form-group mt-2">
+              <label for="whatsapp">No. Whatsapp</label>
+              <input
+                id="whatsapp"
+                type="text"
+                class="form-control"
+                name="whatsapp"
+                placeholder="089966xxxxxx"
+                aria-label="No. Whatsapp"
+                value=""
+                aria-describedby="basic-addon2"
+                required
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="submitBnt btn btn-block btn-primary btn-round"
+            >
+              Daftar
+            </button>
+            <br />
+          </form>
+        </div>
+
+        <p class="txt-daftar mb-5">
+          Sudah Punya Akun ? <a href="login.php"> Masuk Sekarang</a>
+        </p>
+      </div>
+      <p class="footer-auth">Undangan Pernikahan Online - E-InviteMe © 2023</p>
+    </div>
+
+    <!-- END CONTENT -->
+
+    <!-- javascript -->
+    <script src="landing/js/jquery.min.js"></script>
+    <script src="landing/js/bootstrap.bundle.min.js"></script>
+    <script src="landing/js/jquery.easing.min.js"></script>
+    <script src="landing/js/scrollspy.min.js"></script>
+    <!-- olw- carousel -->
+    <script src="landing/js/owl.carousel.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="landing/js/jquery.magnific-popup.min.js"></script>
+    <!-- swipper js -->
+    <script src="landing/js/swiper.min.js"></script>
+    <script src="landing/js/jquery.mb.YTPlayer.js"></script>
+    <!--flex slider plugin-->
+    <script src="landing/js/jquery.flexslider-min.js"></script>
+    <!-- contact init -->
+    <script src="landing/js/contact.init.js"></script>
+    <script src="../unicons.iconscout.com/release/v2.0.1/script/monochrome/bundle.js"></script>
+    <script src="landing/js/app.js"></script>
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
